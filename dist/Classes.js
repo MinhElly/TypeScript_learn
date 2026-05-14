@@ -9,7 +9,7 @@ class Person {
         return this.name;
     }
 }
-const person = new Person('Alice');
+const person = new Person("Alice");
 console.log(person.getName());
 class Rectangle {
     width;
