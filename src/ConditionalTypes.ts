@@ -39,7 +39,7 @@ function getNumber() {
 }
 
 // Simulating ReturnType
-function getReturnType(fn) {
+function getReturnType(fn: () => unknown) {
   const result = fn();
   return typeof result;
 }
